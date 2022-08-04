@@ -1,0 +1,109 @@
+:root {
+  --white: #ffffff;
+  --white-hover: #c0c0c045;
+
+  --roboto: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--roboto);
+}
+
+body {
+  background-image: url('../img/background.jpg');
+}
+
+nav {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+nav img {
+  width: 4rem;
+}
+
+nav ul li {
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  padding: 0.4rem 0;
+  list-style-type: none;
+}
+
+nav ul li:first-child {
+  padding: 0.8rem 0 0.4rem 0;
+}
+
+nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.2rem 0.6rem;
+}
+
+nav ul li a:hover {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--white-hover);
+  border-radius: 0.4rem;
+}
+
+main #app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  padding: 4rem;
+}
+
+main h1 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+main button {
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  border: 1px solid var(--white);
+  border-radius: 0.4rem;
+
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--white);
+  padding: 1rem 4rem;
+}
+
+main button:hover {
+  background-color: var(--white-hover);
+  cursor: pointer;
+}
+
+main button a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+main p {
+  text-align: justify;
+  padding: 1rem 0;
+  font-size: 1.3rem;
+}
+
+main ul li {
+  padding: 0.2rem 0;
+  font-size: 1.3rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+main ul li:first-child {
+  padding: 2rem 0 0 0;
+}
