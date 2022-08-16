@@ -18,7 +18,7 @@
 
 ## About
 
-A fully responsive SPA (Single-page application) about fish keeping.
+A SPA (Single-page application) about fish keeping.
 
 ![A responsive timer with dark and light themes](./assets/img/demo.png)
 
