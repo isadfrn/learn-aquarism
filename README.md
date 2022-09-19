@@ -12,7 +12,7 @@ A SPA (Single-page application) about fish keeping.
 
 ## Run
 
-Install [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right click on `index.html` file and then click on `Open with Live Server`.## Contributing## Contributing
+Install [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right click on `index.html` file and then click on `Open with Live Server`.
 
 ## Status
 
